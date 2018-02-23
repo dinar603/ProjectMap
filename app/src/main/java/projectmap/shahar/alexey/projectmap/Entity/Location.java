@@ -13,7 +13,7 @@ public class Location {
     String placeName;
     String placeDescription;
     Boolean isFavorite;
-    String pic_peview;
+    String pic_preview;
     String pic_large;
 
     public Location(int id, String date, double lat, double lng, String placeName, String placeDescription, Boolean isFavorite) {
@@ -27,7 +27,7 @@ public class Location {
     }
 
 
-    public Location(int id, String date, double lat, double lng, String placeName, String placeDescription, Boolean isFavorite, String pic_peview, String pic_large) {
+    public Location(int id, String date, double lat, double lng, String placeName, String placeDescription, Boolean isFavorite, String pic_preview, String pic_large) {
         this.id = id;
         this.date = date;
         this.lat = lat;
@@ -35,7 +35,7 @@ public class Location {
         this.placeName = placeName;
         this.placeDescription = placeDescription;
         this.isFavorite = isFavorite;
-        this.pic_peview = pic_peview;
+        this.pic_preview = pic_preview;
         this.pic_large = pic_large;
     }
 
@@ -99,12 +99,12 @@ public class Location {
         isFavorite = favorite;
     }
 
-    public String getPic_peview() {
-        return pic_peview;
+    public String getPic_preview() {
+        return pic_preview;
     }
 
-    public void setPic_peview(String pic_peview) {
-        this.pic_peview = pic_peview;
+    public void setPic_preview(String pic_preview) {
+        this.pic_preview = pic_preview;
     }
 
     public String getPic_large() {

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#e4e7fa</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="edit_text_field_background">#80e4e7fa</color>
+    <color name="edit_text_field_frame">#80898989</color>
+    <color name="toolbar_background_color">#80979797</color>
+    <color name="list_item_background_color">#cfd5f9</color>
+
 </resources>
